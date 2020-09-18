@@ -1,11 +1,14 @@
 import React from 'react';
-import logo from '../../logo.svg';
 import './App.css';
+import {Route} from 'react-router-dom';
+import {Login} from "./login/Login";
 
 function App() {
     return (
         <div className="App">
-        {/*    hashRouter, provider*/}
+            <div>
+                <Route path={'/login'} render={() => <Login/>}/>
+            </div>
         </div>
     );
 }
