@@ -16,5 +16,5 @@ export const store = createStore(RootReducer);
 window.store = store;
 
 
-//test варррр fghhhh
+//test  fghhhh
 //sec
