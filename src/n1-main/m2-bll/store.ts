@@ -14,3 +14,6 @@ export type AppRootStateType = ReturnType<typeof RootReducer>;
 export const store = createStore(RootReducer);
 // @ts-ignore
 window.store = store;
+
+
+//test варррр fghhhh
