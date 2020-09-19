@@ -17,4 +17,4 @@ window.store = store;
 
 
 //test варррр fghhhh
-//secTTTTT
+//sec
