@@ -6,6 +6,7 @@ import {Login} from "./login/Login";
 function App() {
     return (
         <div className="App">
+            фыва
             <div>
                 <Route path={'/login'} render={() => <Login/>}/>
             </div>
